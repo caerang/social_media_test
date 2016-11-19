@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44E544769731BFB85EC12F8C17528E25D04B0C3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "42DCF80090E9C7DC0BAB9263AB13C1B7D7C5D216" : 9223372036854775807,
+    "44E544769731BFB85EC12F8C17528E25D04B0C3B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "230E181D-6719-4364-A3B5-0822D0F708E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "42DCF80090E9C7DC0BAB9263AB13C1B7D7C5D216" : "",
+    "44E544769731BFB85EC12F8C17528E25D04B0C3B" : "social_media_test\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "social_media_test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "social_media_test.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/caerang\/iOS_Study.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42DCF80090E9C7DC0BAB9263AB13C1B7D7C5D216"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/caerang\/social_media_test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44E544769731BFB85EC12F8C17528E25D04B0C3B"
+    }
+  ]
+}
