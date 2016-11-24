@@ -28,6 +28,7 @@
 		407C9B111DE3388D00BD0EF3 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		407C9B131DE33A3800BD0EF3 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		407C9B151DE33B6400BD0EF3 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		407C9B171DE4824500BD0EF3 /* social_media_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = social_media_test.entitlements; sourceTree = "<group>"; };
 		40C3EB901DDDF22D008C9820 /* social_media_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = social_media_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C3EB931DDDF22D008C9820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C3EB951DDDF22D008C9820 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		40C3EB921DDDF22D008C9820 /* social_media_test */ = {
 			isa = PBXGroup;
 			children = (
+				407C9B171DE4824500BD0EF3 /* social_media_test.entitlements */,
 				407C9B0E1DE0ECAB00BD0EF3 /* Util */,
 				40C3EBA91DDDF532008C9820 /* Controller */,
 				40C3EBA81DDDF52A008C9820 /* View */,
@@ -173,7 +175,13 @@
 				TargetAttributes = {
 					40C3EB8F1DDDF22D008C9820 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U32Q9DB8SF;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -312,6 +320,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -362,6 +371,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -391,7 +401,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD8B3A60EA312AB86050EED6 /* Pods-social_media_test.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = social_media_test/social_media_test.entitlements;
+				DEVELOPMENT_TEAM = U32Q9DB8SF;
 				INFOPLIST_FILE = social_media_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hd.study.ios.social-media-test";
@@ -404,7 +417,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19388684A85B7E6E5724E473 /* Pods-social_media_test.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = social_media_test/social_media_test.entitlements;
+				DEVELOPMENT_TEAM = U32Q9DB8SF;
 				INFOPLIST_FILE = social_media_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hd.study.ios.social-media-test";
